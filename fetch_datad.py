@@ -2,6 +2,10 @@ from atproto import Client, client_utils
 import pandas as pd
 
 
+login = 'XXX'
+password = ''
+
+
 def main():
     client = Client()
     profile = client.login('my-handle', 'my-password')
