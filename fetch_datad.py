@@ -14,3 +14,5 @@ def main():
     text = client_utils.TextBuilder().text('Hello World from ').link('Python SDK', 'https://atproto.blue')
     post = client.send_post(text)
     client.like(post.uri, post.cid)
+
+main()
