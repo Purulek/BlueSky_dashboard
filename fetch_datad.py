@@ -1,5 +1,7 @@
 from atproto import Client, client_utils
 import pandas as pd
+import numpy as np
+
 
 
 login = 'XXX'
@@ -14,5 +16,8 @@ def main():
     text = client_utils.TextBuilder().text('Hello World from ').link('Python SDK', 'https://atproto.blue')
     post = client.send_post(text)
     client.like(post.uri, post.cid)
+
+
+
 
 main()
