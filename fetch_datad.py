@@ -8,9 +8,9 @@ login = 'XXX'
 password = ''
 
 
-def main():
+def main(log, passw):
     client = Client()
-    profile = client.login('my-handle', 'my-password')
+    profile = client.login(log, passw)
     print('Welcome,', profile.display_name)
 
     text = client_utils.TextBuilder().text('Hello World from ').link('Python SDK', 'https://atproto.blue')
@@ -20,4 +20,4 @@ def main():
 
 
 
-main()
+main(login, password)
