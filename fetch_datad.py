@@ -6,6 +6,7 @@ import numpy as np
 
 login = 'XXX'
 password = ''
+post_topic =[]
 
 
 def main(log, passw):
@@ -23,3 +24,4 @@ def get_posts(log,passw,theme):
 
 
 main(login, password)
+get_posts(login,password,post_topic)
