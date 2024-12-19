@@ -5,8 +5,10 @@ import numpy as np
 
 
 login = 'XXX'
-password = ''
+password = 'XXX'
 post_topic =[]
+
+
 
 
 def main(log, passw):
