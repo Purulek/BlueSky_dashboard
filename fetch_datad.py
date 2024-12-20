@@ -19,8 +19,11 @@ def main(log, passw):
     post = client.send_post(text)
     client.like(post.uri, post.cid)
 
+
 def get_posts(log,passw,theme):
     pass
+
+
 
 
 
