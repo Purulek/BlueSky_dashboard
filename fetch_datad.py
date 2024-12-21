@@ -21,6 +21,9 @@ def main(log, passw):
 
 
 def get_posts(log,passw,theme):
+    client = Client()
+    profile = client.login(log, passw)
+
     pass
 
 
