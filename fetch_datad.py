@@ -20,10 +20,11 @@ def main(log, passw):
     client.like(post.uri, post.cid)
 
 
-def get_posts(log,passw,theme):
+def get_posts(log,passw,theme,text):
     client = Client()
     profile = client.login(log, passw)
-
+    post = client.send_post(text)
+    client.like(post.uri, post.cid)
     pass
 
 
