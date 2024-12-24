@@ -7,7 +7,6 @@ import numpy as np
 login = 'XXX'
 password = 'XXX'
 post_topic =[]
-
 textx = []
 
 
@@ -22,6 +21,7 @@ def main(log, passw,textx):
 
 def get_posts(log,passw,theme,text):
     client = Client()
+    search = theme
     profile = client.login(log, passw)
     post = client.send_post(text)
     client.like(post.uri, post.cid)
