@@ -28,6 +28,7 @@ def get_posts(log,passw,theme,text):
     pass
 
 def create_fiel(log,password):
+    client = Client()
     pass
 
 
