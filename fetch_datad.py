@@ -27,7 +27,7 @@ def get_posts(log,passw,theme,text):
     client.like(post.uri, post.cid)
     pass
 
-def create_fiel(log,password):
+def create_fiel(log,password,text):
     client = Client()
     pass
 
