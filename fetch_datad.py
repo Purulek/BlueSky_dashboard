@@ -29,6 +29,8 @@ def get_posts(log,passw,theme,text):
 
 def create_fiel(file, data,plot):
     client = Client()
+
+    
     pass
 
 
